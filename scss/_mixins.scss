@@ -5,3 +5,9 @@
   transform: translateX(-50%);
   transform: translateY(-50%);
 }
+
+@mixin header-display(){
+  display: inline-block;
+  width: 25%;
+  border-left: 1px #bab6b6 solid;
+}
