@@ -74,6 +74,8 @@ body {
   width: 90%;
 }
 
+
+
 .fa-arrow-down {
   font-size: 16px;
   display: inline-block;
@@ -91,7 +93,6 @@ body {
   font-size: 0px;
   text-align: center;
   height: 100%;
-  padding-bottom: 1000px;
 }
 
 .big-column-container {
@@ -103,8 +104,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 5px;
 }
 
 .selections {
@@ -139,10 +140,11 @@ body {
   position: relative;
   padding: 1px;
 }
-.pic span {
-  object-fit: cover;
-  height: 320px;
-}
+// .pic span {
+//   object-fit: none;
+//   object-position: 50% 50%;
+//   height: 420px;
+// }
 
 .pic img {
   max-width: 600px;
@@ -156,19 +158,24 @@ body {
 color: #fff;
 position: absolute;
 top: 50%;
-left: 50%;
+left: 30%;
 transform: translateX(-50%);
 transform: translateY(-50%);
 font-size: 20px;
+text-align: center;
 }
 
 .werd h1 {
   padding-top: 100px;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-
-
+.werd img {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (min-width:600px) {
   .header {
@@ -185,6 +192,7 @@ font-size: 20px;
     width: 80%;
     display: inline-block;
     margin-top: 91px;
+    margin-left: 151px;
   }
 
   .big-column-container {
@@ -192,6 +200,10 @@ font-size: 20px;
     display: inline-block;
     background-color: $theme-gray;
     vertical-align: top;
+    position: fixed;
+    z-index: 1;
+    margin-top: 80px;
+
   }
 
   .black-header-container {
@@ -207,8 +219,10 @@ font-size: 20px;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-
+    margin-right: 50px;
   }
+
+
 
   .header-title {
     display: inline-block;
