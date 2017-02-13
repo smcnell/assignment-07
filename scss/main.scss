@@ -18,6 +18,8 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .header {
@@ -26,16 +28,17 @@ body {
   background-color: $theme-gray;
   border-top: 1px #bab6b6 solid;
   border-bottom: 1px #bab6b6 solid;
+
 }
 
 .header-pic {
   display: inline-block;
   width: 25%;
   max-width: 50px;
-  line-height: 100px;
   padding-top: 10px;
   vertical-align: bottom;
   padding-bottom: 15px;
+
 
 }
 
@@ -45,18 +48,25 @@ body {
   width: 25%;
   border-left: $theme-border;
 
+
 }
 
 .header-v {
   display: inline-block;
   width: 25%;
   border-left: $theme-border;
+  vertical-align: bottom;
+  padding-top: 10px;
+
 }
 
 .fa-bars {
   width: 25%;
   display: inline-block;
   border-left: $theme-border;
+  font-size: 25px;
+  vertical-align: bottom;
+  padding: 20px;
 }
 
 .black-header-container {
@@ -112,8 +122,13 @@ body {
   border-top: $theme-border;
 }
 
+.selections img {
+  width: 30px;
+}
+
 .lil-logos i {
   margin-top: 40px;
+
 }
 
 .reservations {
@@ -139,12 +154,9 @@ body {
   display: inline-block;
   position: relative;
   padding: 1px;
+
 }
-// .pic span {
-//   object-fit: none;
-//   object-position: 50% 50%;
-//   height: 420px;
-// }
+
 
 .pic img {
   max-width: 600px;
@@ -189,9 +201,9 @@ text-align: center;
 
 
   .pic-container {
-    width: 80%;
+    width: 95%;
     display: inline-block;
-    margin-top: 91px;
+    margin-top: 40px;
     margin-left: 151px;
   }
 
@@ -202,7 +214,7 @@ text-align: center;
     vertical-align: top;
     position: fixed;
     z-index: 1;
-    margin-top: 80px;
+    margin-top: 40px;
 
   }
 
@@ -219,7 +231,8 @@ text-align: center;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 50px;
+    margin-right: 70px;
+
   }
 
 
@@ -227,8 +240,10 @@ text-align: center;
   .header-title {
     display: inline-block;
     text-align: left;
+    width: 30%;
 
   }
+
 
   .fa-arrow-down {
     font-size: 0;

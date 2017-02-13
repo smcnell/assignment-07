@@ -5,6 +5,7 @@
   font-size: 0;
   margin: 0; }
 
+
 .header-container {
   font-size: 0;
   position: fixed;
@@ -14,9 +15,10 @@
 .header {
   font-size: 20px;
   text-align: center;
-  background-color: blue;
-  border-top: 1px #bab6b6 solid;
-  border-bottom: 1px #bab6b6 solid; }
+  /*background-color: blue;*/
+  /*border-top: 1px #bab6b6 solid;
+  border-bottom: 1px #bab6b6 solid;  */
+}
 
 .header-pic {
   display: inline-block;
@@ -27,7 +29,9 @@
 .header-r {
   display: inline-block;
   width: 25%;
-  border-left: 1px #bab6b6 solid; }
+  border-left: 1px #bab6b6 solid;
+  padding: 15px 15px;
+  padding: 70px 0px; }
 
 .header-v {
   display: inline-block;
@@ -37,7 +41,8 @@
 .fa-bars {
   width: 25%;
   display: inline-block;
-  border-left: 1px #bab6b6 solid; }
+  border-left: 1px #bab6b6 solid;
+ }
 
 .black-header-container {
   font-size: 0;
